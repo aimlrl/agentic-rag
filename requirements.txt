@@ -1,0 +1,11 @@
+python-dotenv
+pydantic
+pandas
+pypdf
+beautifulsoup4
+langchain
+langchain-openai
+langchain-community
+langchain-experimental
+langgraph
+fastapi
