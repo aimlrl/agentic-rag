@@ -34,7 +34,7 @@ def main():
         if query.lower() in {"exit", "quit"}:
             break
         result = app.ask_agent(query)
-        print("\nANSWER:\n", result["answer"])
+        print("\nANSWER:\n", result["response"])
         print("\nMETRICS:\n", json.dumps(result["metrics"], indent=2))
 
 
